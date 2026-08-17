@@ -45,7 +45,7 @@ let numero1 = 10
 let numero2 = 20
 let soma = numero1 + numero2
 
-console.log(soma +"\n")
+console.log("a soma sera " +soma +"\n")
 
 /*
 ### ----- Atividade 3:
@@ -56,8 +56,8 @@ Mostre na tela a mensagem: "Olá, você tem X anos e daqui a 10 anos terá Y."
 Substitua X pelo valor da idade atual e Y pela idade que a pessoa terá daqui a 10 anos.
 
 */
-let idade = 22
-let futuro = 32
+let idade = 50
+let futuro = idade + 10
 console.log("Ola voce tem " + idade + " anos e daqui a 10 anos tera "+ futuro +" anos" +"\n")
 
 
@@ -112,7 +112,9 @@ Mostre na tela o salário atual e o novo salário.
 
 let salario = 2000
 console.log("salario atual " + salario)
-salario = salario + 500 - 250
+let acrescimo = 500
+let inss = 250
+salario = salario + acrescimo - inss
 console.log("salario novo " + salario +"\n")
 
 
