@@ -1,7 +1,8 @@
 let prompt = require("prompt-sync")()
 
 let ano = parseInt(prompt("digite o ano que voce nasceu "))
-let idade = 2026 - ano
+let anoAtual = parseInt(prompt("digite o ano em que estamos "))
+let idade = anoAtual - ano
 
 console.log(" voce tem " + idade)
 
