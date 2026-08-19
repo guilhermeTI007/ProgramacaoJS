@@ -9,7 +9,8 @@ console.log(" voce tem " + idade)
 let nota1 = parseInt(prompt("digite a primeira nota "))
 let nota2 = parseInt(prompt("digite a segunda  nota "))
 let nota3 = parseInt(prompt("digite a terceira nota "))
-let media = (nota1 + nota2 + nota3)/3
+let quantidadeProvas = parseInt(prompt("a quantidade de provas "))
+let media = (nota1 + nota2 + nota3)/ quantidadeProvas
 
 console.log("a media das notas é " + media)
 
