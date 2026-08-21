@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>html sript</h1>
+    <p>aplicando programação dentro do html</p>
+    <button onclick="mostrarmensagem()">ver mensagem</button>
+
+
+    <hr/>
+    <p> clique no botão </p>
+    <button onclick="contarclicks()"> clica aqui </button>
+    <script>
+        let cliques = 0
+        function contarclicks(){
+            
+            cliques = cliques + 1
+            alert("voce clicou  "  + cliques + " vezes")
+
+            if(cliques == 10){
+                alert("voce chegou no limite")
+            }
+        }
+
+        function mostrarmensagem(){
+            console.log("ola mundO")
+            console.log("misturando html com java")
+            
+
+            let resposta = prompt("tudo bem")
+        if (resposta == "não"){
+            alert("que pena")
+        }else{
+            alert("ok to nem ai")
+        }
+        }
+        
+    </script>
+</body>
+</html>
